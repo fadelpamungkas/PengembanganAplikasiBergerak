@@ -4,13 +4,40 @@
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
     <string name="nama_kelompok">Nama Kelompok</string>
-    
-    <string name="fadel_nama">Fadel Pamungkas</string>
-    <string name="fadel_nim">18523048</string>
-    <string name="fadel_asal">Riau</string>
-    <string name="fadel_TTL">Dumai, 30 Mei 2000</string>
+
     <string name="nama">Nama:</string>
     <string name="nim">Nim:</string>
     <string name="asal">Asal:</string>
     <string name="ttl">TTL:</string>
+
+    <string name="fadel_nama">Fadel Pamungkas</string>
+    <string name="fadel_nim">18523048</string>
+    <string name="fadel_asal">Riau</string>
+    <string name="fadel_TTL">Dumai, 30 Mei 2000</string>
+
+    <string name="billy_nama">Billy Indra Irawan</string>
+    <string name="billy_nim">18523239</string>
+    <string name="billy_asal">Cilacap</string>
+    <string name="billy_TTL">Cilacap, 24 agustus 2000</string>
+
+    <string name="haydar_nama">Haydar Maulana Muttaqin</string>
+    <string name="haydar_nim">18523241</string>
+    <string name="haydar_asal">Gorontalo</string>
+    <string name="haydar_TTL">Gorontalo, 16 November 1999</string>
+
+    <string name="afsha_nama">Afsha Rahmadani</string>
+    <string name="afsha_nim">18523047</string>
+    <string name="afsha_asal">Grobongan</string>
+    <string name="afsha_TTL">Grobogan, 1 April 2000</string>
+
+    <string name="fira_nama">Rizkina Maulida Safira</string>
+    <string name="fira_nim">18523175</string>
+    <string name="fira_asal">Pekalongan</string>
+    <string name="fira_TTL">Pekalongan, 22 Juni 2000</string>
+
+    <string name="mahes_nama">Maheswari Paramita Prabowo</string>
+    <string name="mahes_nim">18523200</string>
+    <string name="mahes_asal">Jakarta</string>
+    <string name="mahes_TTL">Jakarta, 6 juli 2000</string>
+
 </resources>

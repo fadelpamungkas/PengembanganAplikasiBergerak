@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.btnWeb:
                 Intent intent = new Intent(Intent.ACTION_WEB_SEARCH);
-                intent.putExtra(SearchManager.QUERY, "fadel");
+                intent.putExtra(SearchManager.QUERY, "filosofi");
                 startActivity(intent);
                 break;
         }

@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        this.setTitle("PAB");
+        this.setTitle("UNIVERSE");
 
         btnFilosofi = (Button) findViewById(R.id.btnFilosofi);
         btnFilosofi.setOnClickListener(this);
@@ -31,13 +31,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (view.getId()){
             case R.id.btnFilosofi:
                 Intent filosofi = new Intent(MainActivity.this, FilosofiActivity.class);
-                filosofi.putExtra(FilosofiActivity.EXTRA_NAME, "Filosofi");
+                filosofi.putExtra(FilosofiActivity.EXTRA_NAME, "Filosofi UNIVERSE");
                 startActivity(filosofi);
                 break;
 
             case R.id.btnAnggota:
                 Intent anggota = new Intent(MainActivity.this, AnggotaActivity.class);
-                anggota.putExtra(AnggotaActivity.EXTRA_NAME, "Anggota");
+                anggota.putExtra(AnggotaActivity.EXTRA_NAME, "Anggota UNIVERSE");
                 startActivity(anggota);
                 break;
         }

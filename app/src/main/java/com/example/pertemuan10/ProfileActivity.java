@@ -56,7 +56,7 @@ public class ProfileActivity extends AppCompatActivity {
                 tvNim.setText(R.string.afsha_nim);
                 tvAsal.setText(R.string.afsha_asal);
                 tvTTL.setText(R.string.afsha_TTL);
-                circleImageView.setImageDrawable(getResources().getDrawable(R.drawable.fadel));
+                circleImageView.setImageDrawable(getResources().getDrawable(R.drawable.afsha));
                 break;
 
             case "18523175":
@@ -64,7 +64,7 @@ public class ProfileActivity extends AppCompatActivity {
                 tvNim.setText(R.string.fira_nim);
                 tvAsal.setText(R.string.fira_asal);
                 tvTTL.setText(R.string.fira_TTL);
-                circleImageView.setImageDrawable(getResources().getDrawable(R.drawable.fadel));
+                circleImageView.setImageDrawable(getResources().getDrawable(R.drawable.fira));
                 break;
 
             case "18523200":
@@ -72,7 +72,7 @@ public class ProfileActivity extends AppCompatActivity {
                 tvNim.setText(R.string.mahes_nim);
                 tvAsal.setText(R.string.mahes_asal);
                 tvTTL.setText(R.string.mahes_TTL);
-                circleImageView.setImageDrawable(getResources().getDrawable(R.drawable.fadel));
+                circleImageView.setImageDrawable(getResources().getDrawable(R.drawable.mahes));
                 break;
 
 

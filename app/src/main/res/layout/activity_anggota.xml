@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
+    android:background="@drawable/universe"
     tools:context=".AnggotaActivity">
 
     <LinearLayout
@@ -16,6 +17,7 @@
         android:gravity="center"
         android:onClick="btnFadel">
 
+
         <de.hdodenhof.circleimageview.CircleImageView
             android:layout_width="96dp"
             android:layout_height="96dp"
@@ -24,23 +26,25 @@
             app:civ_border_width="2dp" />
 
         <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:text="Fadel Pamungkas"
             android:textAlignment="center"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"/>
+            android:textColor="@android:color/white" />
 
         <TextView
-            android:text="18523048"
-            android:textAlignment="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"/>
+            android:layout_marginTop="5dp"
+            android:text="18523048"
+            android:textAlignment="center"
+            android:textColor="@android:color/white" />
 
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/fadel2"
+        android:id="@+id/fadel1"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -57,6 +61,7 @@
 
         <TextView
             android:text="Fadel Pamungkas"
+            android:textColor="@android:color/white"
             android:textAlignment="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -67,6 +72,7 @@
             android:textAlignment="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
             android:layout_marginTop="5dp"/>
 
     </LinearLayout>

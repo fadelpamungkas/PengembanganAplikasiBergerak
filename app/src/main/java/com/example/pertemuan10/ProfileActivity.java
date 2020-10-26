@@ -35,7 +35,45 @@ public class ProfileActivity extends AppCompatActivity {
                 circleImageView.setImageDrawable(getResources().getDrawable(R.drawable.fadel));
                 break;
 
-            case "18523049":
+            case "18523239":
+                tvNama.setText(R.string.billy_nama);
+                tvNim.setText(R.string.billy_nim);
+                tvAsal.setText(R.string.billy_asal);
+                tvTTL.setText(R.string.billy_TTL);
+                circleImageView.setImageDrawable(getResources().getDrawable(R.drawable.fadel));
+                break;
+
+            case "18523241":
+                tvNama.setText(R.string.haydar_nama);
+                tvNim.setText(R.string.haydar_nim);
+                tvAsal.setText(R.string.haydar_asal);
+                tvTTL.setText(R.string.haydar_TTL);
+                circleImageView.setImageDrawable(getResources().getDrawable(R.drawable.fadel));
+                break;
+
+            case "18523047":
+                tvNama.setText(R.string.afsha_nama);
+                tvNim.setText(R.string.afsha_nim);
+                tvAsal.setText(R.string.afsha_asal);
+                tvTTL.setText(R.string.afsha_TTL);
+                circleImageView.setImageDrawable(getResources().getDrawable(R.drawable.fadel));
+                break;
+
+            case "18523175":
+                tvNama.setText(R.string.fira_nama);
+                tvNim.setText(R.string.fira_nim);
+                tvAsal.setText(R.string.fira_asal);
+                tvTTL.setText(R.string.fira_TTL);
+                circleImageView.setImageDrawable(getResources().getDrawable(R.drawable.fadel));
+                break;
+
+            case "18523200":
+                tvNama.setText(R.string.mahes_nama);
+                tvNim.setText(R.string.mahes_nim);
+                tvAsal.setText(R.string.mahes_asal);
+                tvTTL.setText(R.string.mahes_TTL);
+                circleImageView.setImageDrawable(getResources().getDrawable(R.drawable.fadel));
+                break;
 
 
 

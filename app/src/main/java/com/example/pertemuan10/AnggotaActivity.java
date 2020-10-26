@@ -22,4 +22,34 @@ public class AnggotaActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void btnAfsha(View view) {
+        Intent intent = new Intent(AnggotaActivity.this, ProfileActivity.class);
+        intent.putExtra(ProfileActivity.EXTRA_NIM, "18523047");
+        startActivity(intent);
+    }
+
+
+    public void btnMahes(View view) {
+        Intent intent = new Intent(AnggotaActivity.this, ProfileActivity.class);
+        intent.putExtra(ProfileActivity.EXTRA_NIM, "18523200");
+        startActivity(intent);
+    }
+
+    public void btnFira(View view) {
+        Intent intent = new Intent(AnggotaActivity.this, ProfileActivity.class);
+        intent.putExtra(ProfileActivity.EXTRA_NIM, "18523175");
+        startActivity(intent);
+    }
+
+    public void btnBilly(View view) {
+        Intent intent = new Intent(AnggotaActivity.this, ProfileActivity.class);
+        intent.putExtra(ProfileActivity.EXTRA_NIM, "18523239");
+        startActivity(intent);
+    }
+
+    public void btnHaydar(View view) {
+        Intent intent = new Intent(AnggotaActivity.this, ProfileActivity.class);
+        intent.putExtra(ProfileActivity.EXTRA_NIM, "18523241");
+        startActivity(intent);
+    }
 }

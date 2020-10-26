@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center_horizontal"
+    android:gravity="center"
     android:background="@drawable/universe"
     tools:context=".AnggotaActivity">
 
@@ -29,7 +29,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Fadel Pamungkas"
+            android:text="@string/fadel_nama"
             android:textAlignment="center"
             android:textColor="@android:color/white" />
 
@@ -37,20 +37,21 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:text="18523048"
+            android:text="@string/fadel_nim"
             android:textAlignment="center"
             android:textColor="@android:color/white" />
 
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/fadel1"
+        android:id="@+id/mahes"
+        android:layout_below="@id/fadel"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_margin="15dp"
-        android:layout_toEndOf="@id/fadel"
-        android:gravity="center">
+        android:gravity="center"
+        android:onClick="btnMahes">
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:layout_width="96dp"
@@ -60,7 +61,7 @@
             app:civ_border_color="@color/colorAccent"/>
 
         <TextView
-            android:text="Fadel Pamungkas"
+            android:text="@string/mahes_nama"
             android:textColor="@android:color/white"
             android:textAlignment="center"
             android:layout_width="match_parent"
@@ -68,7 +69,149 @@
             android:layout_marginTop="10dp"/>
 
         <TextView
-            android:text="18523048"
+            android:text="@string/mahes_nim"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fira"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="15dp"
+        android:layout_toEndOf="@id/mahes"
+        android:gravity="center"
+        android:onClick="btnFira">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/fadel"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/colorAccent"/>
+
+        <TextView
+            android:text="@string/fira_nama"
+            android:textColor="@android:color/white"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:text="@string/fira_nim"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/afsha"
+        android:layout_below="@id/fadel"
+        android:layout_toEndOf="@id/mahes"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:onClick="btnAfsha">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/fadel"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/colorAccent"/>
+
+        <TextView
+            android:text="@string/afsha_nama"
+            android:textColor="@android:color/white"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:text="@string/afsha_nim"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/billy"
+        android:layout_below="@id/afsha"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:onClick="btnBilly">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/fadel"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/colorAccent"/>
+
+        <TextView
+            android:text="@string/billy_nama"
+            android:textColor="@android:color/white"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:text="@string/billy_nim"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/haydar"
+        android:layout_below="@id/afsha"
+        android:layout_toEndOf="@id/billy"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:onClick="btnHaydar">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/fadel"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/colorAccent"/>
+
+        <TextView
+            android:text="@string/haydar_nama"
+            android:textColor="@android:color/white"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:text="@string/haydar_nim"
             android:textAlignment="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

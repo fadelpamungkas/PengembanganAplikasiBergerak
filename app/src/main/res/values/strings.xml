@@ -1,15 +1,13 @@
 <resources>
     <string name="app_name">Pertemuan10</string>
-
     <string name="filosofi"> Universe adalah Alam semesta (disebut pula jagat raya atau universum) seluruh ruang waktu kontinu tempat kita berada, dengan energi dan materi yang dimilikinya.
-        Usaha untuk memahami pengertian alam semesta dalam lingkup ini pada skala terbesar yang memungkinkan,
-        ada pada kosmologi, ilmu pengetahuan yang berkembang dari fisika dan astronomi. Alam semesta fisik didefinisikan sebagai keseluruhan ruang dan waktu (secara kolektif disebut ruang-waktu) dan isinya.Isi tersebut terdiri dari semua energi dalam berbagai bentuk, termasuk radiasi elektromagnetik dan materi. Alam semesta juga mencakup hukum-hukum fisika yang memengaruhi energi dan materi, seperti hukum kekekalan, mekanika klasik, dan relativitas.
+    Usaha untuk memahami pengertian alam semesta dalam lingkup ini pada skala terbesar yang memungkinkan,
+    ada pada kosmologi, ilmu pengetahuan yang berkembang dari fisika dan astronomi. Alam semesta fisik didefinisikan sebagai keseluruhan ruang dan waktu (secara kolektif disebut ruang-waktu) dan isinya.Isi tersebut terdiri dari semua energi dalam berbagai bentuk, termasuk radiasi elektromagnetik dan materi. Alam semesta juga mencakup hukum-hukum fisika yang memengaruhi energi dan materi, seperti hukum kekekalan, mekanika klasik, dan relativitas.
 
-Alam semesta sering didefinisikan sebagai "keseluruhan keberadaan", atau segala sesuatu yang ada, segala sesuatu yang telah ada, dan segala sesuatu yang akan ada. Bahkan, beberapa filsuf dan ilmuwan mendukung penyertaan gagasan dan konsep abstrak – seperti matematika dan logika – dalam definisi Alam semesta.Kata alam semesta juga dapat merujuk pada konsep-konsep seperti kosmos, dunia, dan alam.
+    Alam semesta sering didefinisikan sebagai "keseluruhan keberadaan", atau segala sesuatu yang ada, segala sesuatu yang telah ada, dan segala sesuatu yang akan ada. Bahkan, beberapa filsuf dan ilmuwan mendukung penyertaan gagasan dan konsep abstrak – seperti matematika dan logika – dalam definisi Alam semesta.Kata alam semesta juga dapat merujuk pada konsep-konsep seperti kosmos, dunia, dan alam.
         sementara makna universe bagi kelompok kami adalah tempat berkumpulnya 6 orang yang memiliki pemikiran, pengetahuan, pengalaman dan karakteristik berbeda-beda yang memiliki tujuan yang sama dalam menyelesaikan proyek
     </string>
     <string name="nama_kelompok">UNIVERSE</string>
-
 
     <string name="nama">Nama:</string>
     <string name="nim">Nim:</string>

@@ -10,7 +10,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private Button btnFilosofi, btnAnggota, btnWeb;
+    private Button btnFilosofi, btnAnggota;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,8 +24,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnAnggota = (Button) findViewById(R.id.btnAnggota);
         btnAnggota.setOnClickListener(this);
 
-        btnWeb = (Button) findViewById(R.id.btnWeb);
-        btnWeb.setOnClickListener(this);
     }
 
     @Override
@@ -41,12 +39,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Intent anggota = new Intent(MainActivity.this, AnggotaActivity.class);
                 anggota.putExtra(AnggotaActivity.EXTRA_NAME, "Anggota");
                 startActivity(anggota);
-                break;
-
-            case R.id.btnWeb:
-                Intent intent = new Intent(Intent.ACTION_WEB_SEARCH);
-                intent.putExtra(SearchManager.QUERY, "filosofi");
-                startActivity(intent);
                 break;
         }
     }

@@ -24,7 +24,8 @@
         android:text="UNIVERSE"
         android:textColor="@android:color/white"
         android:textSize="40sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:layout_marginBottom="80dp"/>
 
     <Button
         android:id="@+id/btnFilosofi"
@@ -47,17 +48,5 @@
         android:padding="15dp"
         android:text="Anggota Universe"
         android:textSize="16sp" />
-
-    <Button
-        android:id="@+id/btnWeb"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="50dp"
-        android:background="#3E9FAC"
-        android:padding="15dp"
-        android:text="Web Search"
-        android:textSize="16sp" />
-
-
 
 </LinearLayout>

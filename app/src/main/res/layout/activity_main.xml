@@ -6,39 +6,58 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center_horizontal"
+    android:background="@drawable/universe"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="30dp"
-        android:text="Hello World!"
-        android:textSize="30sp"/>
+        android:layout_marginTop="70dp"
+        android:text="Welcome to"
+        android:textColor="#F8F1F4"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UNIVERSE"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/btnFilosofi"
-        android:text="Filosofi Nama Kelompok"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="30dp"/>
+        android:layout_margin="50dp"
+        android:background="#3E9FAC"
+        android:padding="15dp"
+        android:text="Filosofi Universe"
+        android:textColor="@android:color/background_dark"
+        android:textSize="16sp" />
 
     <Button
         android:id="@+id/btnAnggota"
-        android:text="Nama Anggota"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="30dp"/>
+        android:layout_margin="10dp"
+        android:background="#3E9FAC"
+        android:gravity="center_horizontal|center_vertical"
+        android:padding="15dp"
+        android:text="Anggota Universe"
+        android:textSize="16sp" />
 
     <Button
         android:id="@+id/btnWeb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:background="#3E9FAC"
+        android:padding="15dp"
         android:text="Web Search"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="30dp"/>
+        android:textSize="16sp" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="30dp"/>
+
 
 </LinearLayout>

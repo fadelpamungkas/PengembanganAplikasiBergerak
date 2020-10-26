@@ -21,4 +21,5 @@ public class AnggotaActivity extends AppCompatActivity {
         intent.putExtra(ProfileActivity.EXTRA_NIM, "18523048");
         startActivity(intent);
     }
+
 }

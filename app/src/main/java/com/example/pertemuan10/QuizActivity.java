@@ -31,6 +31,7 @@ public class QuizActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz);
+        this.setTitle(getIntent().getStringExtra(EXTRA_NAME));
 
         r = new Random();
 
@@ -98,13 +99,20 @@ public class QuizActivity extends AppCompatActivity {
         alertDialogBuilder
                 .setMessage("Anda Kalah! Score akhir : " + mScore + " poin")
                 .setCancelable(false)
-                 .setPositiveButton("Keluar",
+                 .setPositiveButton("Lagi",
                          new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialogInterface, int i) {
-                                finish();
+                                startActivity(new Intent(getApplicationContext(), QuizActivity.class));
                             }
-                        });
+                        })
+                .setNegativeButton("Keluar",
+                new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                    }
+                });
         AlertDialog alertDialog = alertDialogBuilder.create();
         alertDialog.show();
     }

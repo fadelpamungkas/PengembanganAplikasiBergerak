@@ -10,14 +10,14 @@ public class Questions {
     };
 
     private String mChoices[][] = {
-            {"Rahardian Kurniawan","Galang Prihadi", "Kholid Haryono"},
-            {"INSIGHT ","PIXEL", "METAFORA"},
-            {"KAHAR MUZAKIR","ULIL", "KH Mas Mansyur"},
-            {"JAVA","C++", "Pyton"},
-            {"6","3", "4"}
+            {"Rahardian Kurniawan","Galang Prihadi","Kholid Haryono"},
+            {"INSIGHT","PIXEL","METAFORA"},
+            {"KAHAR MUZAKIR","ULIL","KH Mas Mansyur"},
+            {"JAVA","C++","Pyton"},
+            {"6","3","4"}
     };
 
-    private String mCorrectAnswer[] = {"Galang Prihadi", "INSIGHT", "KH Mas Mansyur", "JAVA","4"};
+    private String mCorrectAnswer[] = {"Galang Prihadi","INSIGHT","KH Mas Mansyur","JAVA","4"};
 
     public String getQuestions(int a) {
         String question =mQuestions[a];

@@ -10,7 +10,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private Button btnFilosofi, btnAnggota;
+    private Button btnFilosofi, btnAnggota, btnQuiz;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +23,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         btnAnggota = (Button) findViewById(R.id.btnAnggota);
         btnAnggota.setOnClickListener(this);
+
+        btnQuiz = (Button) findViewById(R.id.btnQuiz);
+        btnQuiz.setOnClickListener(this);
 
     }
 
@@ -39,6 +42,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Intent anggota = new Intent(MainActivity.this, AnggotaActivity.class);
                 anggota.putExtra(AnggotaActivity.EXTRA_NAME, "Anggota UNIVERSE");
                 startActivity(anggota);
+                break;
+
+            case R.id.btnQuiz:
+                Intent quiz = new Intent(MainActivity.this, QuizActivity.class);
+                quiz.putExtra(QuizActivity.EXTRA_NAME, "Quiz");
+                startActivity(quiz);
                 break;
         }
     }

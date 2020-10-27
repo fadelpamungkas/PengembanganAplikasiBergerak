@@ -2,8 +2,11 @@ package com.example.pertemuan10;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
+import android.net.Uri;
 
 import java.util.Objects;
 
@@ -40,7 +43,7 @@ public class ProfileActivity extends AppCompatActivity {
                 tvNim.setText(R.string.billy_nim);
                 tvAsal.setText(R.string.billy_asal);
                 tvTTL.setText(R.string.billy_TTL);
-                circleImageView.setImageDrawable(getResources().getDrawable(R.drawable.fadel));
+                circleImageView.setImageDrawable(getResources().getDrawable(R.drawable.billy));
                 break;
 
             case "18523241":
@@ -74,9 +77,12 @@ public class ProfileActivity extends AppCompatActivity {
                 tvTTL.setText(R.string.mahes_TTL);
                 circleImageView.setImageDrawable(getResources().getDrawable(R.drawable.mahes));
                 break;
-
-
-
         }
+    }
+
+    public void cellphone(View view) {
+//            Uri uri = Uri.parse("tel:" R.string.billy_hp);
+//            Intent it = new Intent(Intent.ACTION_DIAL, uri);
+//            startActivity(it);
     }
 }

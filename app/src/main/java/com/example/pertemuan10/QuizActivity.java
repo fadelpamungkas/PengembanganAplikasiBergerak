@@ -55,6 +55,10 @@ public class QuizActivity extends AppCompatActivity {
                 }else{
                     gameOver();
                 }
+
+                if(mScore == 5) {
+                    menang();
+                }
             }
         });
 
@@ -68,6 +72,10 @@ public class QuizActivity extends AppCompatActivity {
                 }else{
                     gameOver();
                 }
+
+                if(mScore == 5) {
+                    menang();
+                }
             }
         });
 
@@ -80,6 +88,10 @@ public class QuizActivity extends AppCompatActivity {
                     updateQuestion(r.nextInt(mQuestionsLenght));
                 }else{
                     gameOver();
+                }
+
+                if(mScore == 5) {
+                    menang();
                 }
             }
         });
@@ -113,6 +125,29 @@ public class QuizActivity extends AppCompatActivity {
                         startActivity(new Intent(getApplicationContext(), MainActivity.class));
                     }
                 });
+        AlertDialog alertDialog = alertDialogBuilder.create();
+        alertDialog.show();
+    }
+
+    private void menang(){
+        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(QuizActivity.this);
+        alertDialogBuilder
+                .setMessage("Anda Sudah Menang! Score akhir : " + mScore + " poin")
+                .setCancelable(false)
+                .setPositiveButton("Menu Utama",
+                        new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialogInterface, int i) {
+                                startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                            }
+                        })
+                .setNegativeButton("Lagi",
+                        new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialogInterface, int i) {
+                                startActivity(new Intent(getApplicationContext(), QuizActivity.class));
+                            }
+                        });
         AlertDialog alertDialog = alertDialogBuilder.create();
         alertDialog.show();
     }

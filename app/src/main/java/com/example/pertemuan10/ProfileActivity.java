@@ -22,6 +22,7 @@ public class ProfileActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
+        this.setTitle("Anggota UNIVERSE");
 
         tvNama = (TextView) findViewById(R.id.tvNama);
         tvNim = (TextView) findViewById(R.id.tvNim);
@@ -51,7 +52,7 @@ public class ProfileActivity extends AppCompatActivity {
                 tvNim.setText(R.string.haydar_nim);
                 tvAsal.setText(R.string.haydar_asal);
                 tvTTL.setText(R.string.haydar_TTL);
-                circleImageView.setImageDrawable(getResources().getDrawable(R.drawable.fadel));
+                circleImageView.setImageDrawable(getResources().getDrawable(R.drawable.haydar));
                 break;
 
             case "18523047":
